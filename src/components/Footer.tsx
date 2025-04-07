@@ -180,11 +180,6 @@ export default function Footer() {
                     <p className="text-gray-400 text-sm text-center md:text-left mb-4 md:mb-0">
                         © {new Date().getFullYear()} - Tanzanian Community Association of Calgary • All Rights Reserved
                     </p>
-                    <div className="flex items-center text-sm text-gray-400">
-                        <span>Website by</span>
-                        <a href="#" className="ml-1 hover:text-white transition-colors">Mark Njau</a>
-                        <span className="animate-[pulse_1.5s_ease-in-out_infinite] ml-1 text-[#FF9D00]">♥</span>
-                    </div>
                 </div>
             </div>
         </footer>
