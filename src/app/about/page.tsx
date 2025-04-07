@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -66,7 +65,7 @@ export default function AboutPage() {
                         <div className="text-center mb-12">
                             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Leadership Team</h2>
                             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                                Meet the dedicated individuals who volunteer their time to lead and serve our community
+                                {`Meet the dedicated individuals who volunteer their time to lead and serve our community`}
                             </p>
                         </div>
 
@@ -80,8 +79,8 @@ export default function AboutPage() {
                                     <h3 className="text-xl font-bold text-gray-900 mb-1">Zena Said</h3>
                                     <p className="text-[#005A87] font-medium mb-4">President</p>
                                     <p className="text-gray-600 mb-4">
-                                        "I am excited about the journey ahead, and I am confident that if we believe
-                                        together we can do it."
+                                        {`"I am excited about the journey ahead, and I am confident that if we believe
+                                        together we can do it."`}
                                     </p>
                                 </div>
                             </div>
@@ -95,7 +94,7 @@ export default function AboutPage() {
                                     <h3 className="text-xl font-bold text-gray-900 mb-1">Leadership Member</h3>
                                     <p className="text-[#005A87] font-medium mb-4">Vice President</p>
                                     <p className="text-gray-600 mb-4">
-                                        Brief description or quote from this leadership team member would go here.
+                                        {`Brief description or quote from this leadership team member would go here.`}
                                     </p>
                                 </div>
                             </div>
@@ -108,7 +107,7 @@ export default function AboutPage() {
                                     <h3 className="text-xl font-bold text-gray-900 mb-1">Leadership Member</h3>
                                     <p className="text-[#005A87] font-medium mb-4">Secretary</p>
                                     <p className="text-gray-600 mb-4">
-                                        Brief description or quote from this leadership team member would go here.
+                                        {`Brief description or quote from this leadership team member would go here.`}
                                     </p>
                                 </div>
                             </div>
@@ -132,8 +131,8 @@ export default function AboutPage() {
                                     <span className="text-[#005A87] font-bold">2002</span>
                                     <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">TCAC is Founded</h3>
                                     <p className="text-gray-600">
-                                        The Tanzanian Community Association of Calgary is established
-                                        to connect Tanzanians living in Calgary.
+                                        {`The Tanzanian Community Association of Calgary is established
+                                        to connect Tanzanians living in Calgary.`}
                                     </p>
                                 </div>
 

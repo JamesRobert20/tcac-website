@@ -285,7 +285,7 @@ export default function SupportSection() {
                 <div className="animate-[fadeIn_1s_ease-out_0.2s_both]">
                     <h3 className="text-2xl font-bold text-gray-900 text-center mb-6">Our Community Supporters</h3>
                     <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10">
-                        We're grateful to these organizations and businesses that support our community initiatives and help us make a difference.
+                        {`We're grateful to these organizations and businesses that support our community initiatives and help us make a difference.`}
                     </p>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">

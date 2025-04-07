@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import ProgramsSection from "@/components/ProgramsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CommunityShowcase from "@/components/CommunityShowcase";
-import SupportSection from "@/components/SupportSection";
+//import SupportSection from "@/components/SupportSection";
 
 export default function Home() {
     return (

@@ -126,7 +126,7 @@ export default function LeadersPage() {
                         <div className="animate-[fadeIn_1s_ease-out]">
                             <h2 className="text-3xl font-bold text-white mb-6">Join Our Leadership Team</h2>
                             <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
-                                Interested in making a difference in our community? We're always looking for passionate individuals to join our team and help shape the future of TCAC.
+                                {`Interested in making a difference in our community? We're always looking for passionate individuals to join our team and help shape the future of TCAC.`}
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <a

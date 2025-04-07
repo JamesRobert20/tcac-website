@@ -104,7 +104,7 @@ export default function TestimonialsSection() {
 
                                 <div className="mb-8">
                                     <p className="text-xl text-gray-700 italic mb-6 relative">
-                                        "{testimonials[currentIndex].content}"
+                                        {`"${testimonials[currentIndex].content}"`}
                                     </p>
 
                                     {/* Small decorative line */}
@@ -170,7 +170,7 @@ export default function TestimonialsSection() {
                 <div className="mt-16 text-center animate-[fadeIn_1s_ease-out_0.6s_both]">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Share Your Story</h3>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-                        Are you part of our Tanzanian community in Calgary? We'd love to hear about your experiences and feature your story!
+                        {`Are you part of our Tanzanian community in Calgary? We'd love to hear about your experiences and feature your story!`}
                     </p>
                     <a
                         href="/share-story"

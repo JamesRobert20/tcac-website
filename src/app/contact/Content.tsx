@@ -22,7 +22,7 @@ export default function Content() {
                                 Connect With Our Community
                             </h1>
                             <p className="text-xl text-white/80 max-w-3xl mx-auto animate-[fadeIn_1s_ease-out_0.2s_both]">
-                                We'd love to hear from you! Reach out to us with your questions, ideas, or just to say hello.
+                                {`We'd love to hear from you! Reach out to us with your questions, ideas, or just to say hello.`}
                             </p>
                         </div>
                     </div>
@@ -270,7 +270,7 @@ export default function Content() {
                         <div className="text-center mb-10 animate-[fadeIn_1s_ease-out]">
                             <h2 className="text-2xl font-bold text-gray-900 mb-4">Find Us in the Community</h2>
                             <p className="text-gray-600 max-w-2xl mx-auto">
-                                While we don't have a permanent physical location, we host events across Calgary. Here's where you can often find us!
+                                {`While we don't have a permanent physical location, we host events across Calgary. Here's where you can often find us!`}
                             </p>
                         </div>
 
@@ -278,8 +278,8 @@ export default function Content() {
                             {/* Placeholder for map - in a real implementation, you would use Google Maps or another mapping service */}
                             <div className="w-full h-full bg-gray-200 flex items-center justify-center">
                                 <p className="text-gray-500 text-center px-4">
-                                    Interactive map showing our event locations would appear here.<br />
-                                    For actual implementation, integrate with Google Maps or a similar service.
+                                    {`Interactive map showing our event locations would appear here.`}<br />
+                                    {`For actual implementation, integrate with Google Maps or a similar service.`}
                                 </p>
                             </div>
                         </div>

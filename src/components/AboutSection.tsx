@@ -68,20 +68,20 @@ export default function AboutSection() {
                                 </div>
 
                                 <blockquote className="text-gray-700 italic border-l-4 border-[#005A87] pl-4 mb-6 relative">
-                                    <span className="text-4xl text-[#005A87]/20 absolute -top-2 -left-2">"</span>
-                                    "As I enter my first year as President I want to express my heartfelt gratitude
-                                    for the trust and confidence you have placed in me to lead this community."
-                                    <span className="text-4xl text-[#005A87]/20 absolute -bottom-5 -right-2">"</span>
+                                    <span className="text-4xl text-[#005A87]/20 absolute -top-2 -left-2">{`"`}</span>
+                                    {`As I enter my first year as President I want to express my heartfelt gratitude
+                                    for the trust and confidence you have placed in me to lead this community.`}
+                                    <span className="text-4xl text-[#005A87]/20 absolute -bottom-5 -right-2">{`"`}</span>
                                 </blockquote>
 
                                 <p className="text-gray-600 mb-4">
-                                    Thank you members for your continued participation and enthusiasm in our TCAC,
-                                    and sponsors for your incredible support and advice.
+                                    {`Thank you members for your continued participation and enthusiasm in our TCAC,
+                                    and sponsors for your incredible support and advice.`}
                                 </p>
 
                                 <p className="text-gray-600">
-                                    I am excited about the journey ahead, and I am confident that if we believe
-                                    together we can do it.
+                                    {`I am excited about the journey ahead, and I am confident that if we believe
+                                    together we can do it.`}
                                 </p>
 
                                 <div className="mt-4 text-right">
