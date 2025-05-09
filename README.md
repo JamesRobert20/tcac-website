@@ -85,4 +85,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - All contributors and volunteers who have helped build and maintain this website
 - The Tanzanian Community Association of Calgary for their mission to serve the community
-- Mark Njau for the website design and implementation
